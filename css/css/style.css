@@ -1,0 +1,112 @@
+@font-face {
+    font-family:"oswald";
+    src: url("/font/Oswald-Regular.ttf");
+    font-weight: 500;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+
+
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.navigationbar {
+    background-color: silver;
+    padding: 35px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    list-style-type: none;   
+
+}
+.navigationbar a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+.navigationbar a:active {
+    background-color: purple;
+    color:black;
+
+}
+
+.frontimage {
+    display: block;
+    text-align: center;
+
+}
+.navigationbar a { 
+  text-decoration: none;    
+}
+
+h1 { 
+    color:rgb(95, 10, 175);
+    font-family:'Balsamiq Sans', cursive;
+    text-align:center;
+    font-size: 60px;
+}
+h3 {color: rgb(95, 10, 175);
+    font-family:'Balsamiq Sans', cursive;
+    font-weight:bold;
+    font-size: 30px;
+    text-align:center;
+}
+p {
+    color:darkslateblue;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: normal;
+    font-weight: normal;
+}
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    table-layout: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, .prices{
+    padding: 10px;
+    text-align: center;
+    table-layout: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto' sans-serif;
+}
+td {
+    padding: 10px;
+    text-align:left;
+    table-layout: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto' sans-serif;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+li {
+    display: inline;
+    padding: 15px;
+}
+img { 
+    width: 300px;
+    margin: 50px;
+}
