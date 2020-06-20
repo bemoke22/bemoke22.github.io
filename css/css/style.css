@@ -100,7 +100,7 @@ tr {
     border: 1px solid;
     border-radius:15px;
 }
-tr.middlecentered{
+.middlecentered td{
     text-align: center;
 }
 td {
