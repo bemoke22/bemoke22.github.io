@@ -10,27 +10,28 @@
 
 
 .header {
-  background-color: #ffffff;
+  background-color:  rgba(82, 185, 34, 0.7);
   padding: 20px;
   text-align: center;
 }
 
 .navigationbar {
-    background-color: silver;
-    padding: 35px;
+    background-color:rgba(25, 250, 4, 0.295);
+    padding: 25px;
     text-align: center;
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    list-style-type: none;   
+    list-style-type: none; 
+     
 
 }
-.navigationbar a:hover {
+.navigationbar li:hover {
     background-color: #ffffff;
     color: black;
 }
-.navigationbar a:active {
-    background-color: purple;
+.navigationbar li:active {
+    background-color:yellow; /*miért nem működik? */
     color:black;
 
 }
@@ -43,70 +44,135 @@
 .navigationbar a { 
   text-decoration: none;    
 }
-
+body {
+    background-color:#ffffff;
+}
 h1 { 
-    color:rgb(95, 10, 175);
+    color:rgb(5, 97, 5);
     font-family:'Balsamiq Sans', cursive;
     text-align:center;
     font-size: 60px;
 }
-h3 {color: rgb(95, 10, 175);
+h3 {color:rgb(5, 97, 5);
     font-family:'Balsamiq Sans', cursive;
     font-weight:bold;
     font-size: 30px;
     text-align:center;
 }
+a {
+    color:darkslateblue;
+}
 p {
     color:darkslateblue;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-family:'Balsamiq Sans', cursive;
     text-align: center;
     line-height: normal;
     font-weight: normal;
 }
 table {
-    width: 50%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    table-layout: auto;
-    border: 1px solid black;
-    border-collapse: collapse;
+    table-layout:fixed;
+}   
+table.nyitvatartas{
+    border: 1px solid green;
+    border-radius: 5px;
+
 }
-th, .prices{
-    padding: 10px;
+.green {
+    background-color:rgba(25, 250, 4, 0.295);
+}
+.green:hover {
+    background-color:rgba(25, 250, 4, 0.4);
+    border-radius:15px;
+}
+.yellow {
+    background-color:rgba(217, 233, 0, 0.5);
+    border-radius:15px;
+}
+.yellow:hover{
+    background-color:rgba(217, 233, 0, 0.7);
+    border-radius:15px;
+}
+tr {
+    border: 1px solid;
+    border-radius:15px;
+}
+tr.middlecentered{
     text-align: center;
-    table-layout: auto;
-    border: 1px solid black;
-    border-collapse: collapse;
-    height: 20px;
-    font-size: 20px;
-    font-family: 'Roboto' sans-serif;
 }
 td {
-    padding: 10px;
+    padding: 2%;
     text-align:left;
-    table-layout: auto;
-    border: 1px solid black;
-    border-collapse: collapse;
-    height: 20px;
-    font-size: 20px;
-    font-family: 'Roboto' sans-serif;
-
+    vertical-align: middle;
+    font-size: 25px;
+    font-family:'Balsamiq Sans', cursive;
+    color:darkslateblue;
+    height:fit-content;
 }
-
-
+th {
+    font-size: 25px;
+    font-family:'Balsamiq Sans', cursive;
+}
 ul {
-    list-style-type: none;
-    margin: 0;
+    list-style-type:none;
+    margin: 2%;
     padding: 0;
     display: block;
 }
 li {
     display: inline;
     padding: 15px;
+    border:1px solid black;
+    border-radius: 15px;
+    margin-left: 2%;
+    margin-right:2%;
 }
-img { 
-    width: 300px;
-    margin: 50px;
+#frontimage{ 
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.etlapkep{
+    max-width:18%;;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    display:block; 
+    float:right; /* étlapkép helye! */
+    
+}
+.napiakcio {
+    background-color:rgba(25, 250, 4, 0.295);
+    padding:1px;
+    border-radius: 15px;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px rgba(125, 141, 117, 0.7);
+    max-width: 85%;
+    height: fit-content;
+    overflow-y: hidden;
+}
+.napiakcio:hover{
+    background-color:rgba(130, 253, 119, 0.295) ;
+}
+.leftalign {
+    text-align: left;
+    text-indent: 5%;
+    
+}
+.akcioleiras {
+    text-align: justify;
+    padding-left: 5px;
+    text-indent: 1%;
+}
+.akciokep{
+    width:15%;
+    float:right;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
